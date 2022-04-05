@@ -1,0 +1,58 @@
+
+.acordeon ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+.acordeon ul li {
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  *display: inline;
+}
+a {
+  text-decoration: none;
+}
+
+.acordeon {
+  overflow: hidden;
+  margin: 20px auto;
+  width: 960px;
+  height: 320px;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+.acordeon ul {
+  width: 2000px;
+}
+.acordeon ul:hover li {
+  width: 80px;
+}
+.acordeon ul li {
+  position: relative;
+  width: 186px;
+  box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.83);
+  transition: all 0.5s;
+}
+.acordeon ul li:hover {
+  width: 640px;
+}
+.acordeon ul li img {
+  display: block;
+}
+.titulo_imagen {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 640px;
+  background: rgba(109, 0, 0, 0.83);
+}
+.titulo_imagen a {
+  display: block;
+  color: #EDEDED;
+  text-decoration: none;
+  font-size: 1em;
+}
+.titulo_imagen a:hover {
+  color: #FFFFFF;
+}
